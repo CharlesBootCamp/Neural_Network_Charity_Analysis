@@ -18,23 +18,24 @@ The number of neurons, layers, and activation functions I selected for my neural
 
 
 Was the model able to achieve the target model performance?
-- The model was not able to reach the target 75%.
+- The model was not able to reach the target 75%. Only having a meager 39%.
 
 ![image](https://github.com/CharlesBootCamp/Neural_Network_Charity_Analysis/blob/main/Resources/Deliverable%202.png)
 
-The steps taken to try and increase model performance
+The following attempts are used with increased criteria to try to make sure that it can reach at least 75%.
 
-- Attempt 1: Removed additional feature, that is the 'USE_CASE' column. 
+- Attempt 1: Removed additional feature, in this case, the 'USE_CASE' column. This case has a 70% accuracy, which is closer, but still not enough.
 
-![image]()
+![image](https://github.com/CharlesBootCamp/Neural_Network_Charity_Analysis/blob/main/Resources/Deliverable%203.1.png)
 
--  Attempt 2: Adding Additional neurons to hidden layers and additional hidden layers are added. 
+-  Attempt 2: Added additional neurons to hidden layers and additional hidden layers are added. This case drops down to a 47% accuracy, moving further from the target.
 
-![image]()
+![image](https://github.com/CharlesBootCamp/Neural_Network_Charity_Analysis/blob/main/Resources/Deliverable%203.2.png)
 
-- Attempt 3: Changing activation function of output layer from "sigmoid" to "tanh." 
+- Attempt 3: Changing activation function of output layer from "sigmoid" to "tanh." This case drops down to a 45% accuracy, moving even farther from the target.
 
-![image]()
+![image](https://github.com/CharlesBootCamp/Neural_Network_Charity_Analysis/blob/main/Resources/Deliverable%203.3.png)
 
 ## Summary 
 
+Ultimately, the 75% goal was unobtainable, but it got much closer when the USE_CASE column was removed, making it seem that potentially removing more columns, such as the ORGANIZATION and AFFILIATION columns. The Alphabet Soup organization will need to do a little more examination before anything potentially useful is able to be obtained.
