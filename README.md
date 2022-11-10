@@ -16,7 +16,6 @@ The charitable organization Alphabet Soup wants us to look at a list of over 34k
 The number of neurons, layers, and activation functions I selected for my neural network model:
 - For this case, I decided to have 2 hidden layers. The first ones having 80 neurons and the second having 30, while there is also an output layer. The first and second hidden layer have the "relu" activation function and the activation function for the output layer is "sigmoid."
 
-![image]()
 
 Was the model able to achieve the target model performance?
 - The model was not able to reach the target 75%.
@@ -29,17 +28,11 @@ The steps taken to try and increase model performance
 
 ![image]()
 
-![image]()
-
 -  Attempt 2: Adding Additional neurons to hidden layers and additional hidden layers are added. 
-![image]()
 
 ![image]()
 
 - Attempt 3: Changing activation function of output layer from "sigmoid" to "tanh." 
-
-![image]()
-
 
 ![image]()
 
