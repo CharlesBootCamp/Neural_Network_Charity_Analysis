@@ -20,7 +20,7 @@ The number of neurons, layers, and activation functions I selected for my neural
 Was the model able to achieve the target model performance?
 - The model was not able to reach the target 75%.
 
-![image]()
+![image](https://github.com/CharlesBootCamp/Neural_Network_Charity_Analysis/blob/main/Resources/Deliverable%202.png)
 
 The steps taken to try and increase model performance
 
